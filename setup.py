@@ -181,9 +181,6 @@ def setup_package():
     else:
         from numpy.distutils.core import setup
 
-        # Generate Cython sources
-        generate_cython()
-
         META_DATA['configuration'] = configuration
 
     setup(**META_DATA)
